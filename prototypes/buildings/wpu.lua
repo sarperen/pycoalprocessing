@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 10,
     enabled = true,
     ingredients = {
-        {"raw-wood", 20},
+        {"wood", 20},
         {"iron-plate", 20},
         {"iron-gear-wheel", 15},
         {"burner-mining-drill", 2},

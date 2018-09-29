@@ -24,7 +24,7 @@ RECIPE {
         {"electronic-circuit", 10}, --bob basic-circuit-board
         {"copper-cable", 25},
         {"iron-plate", 40},
-        {"raw-wood", 150}
+        {"wood", 150}
     },
     results = {
         {"fawogae-plantation", 1}

@@ -45,7 +45,7 @@ RECIPE {
     enabled = true,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "raw-wood", amount = 1}
+        {type = "item", name = "wood", amount = 1}
     },
     results = {
         {type = "item", name = "wood", amount = 2}
@@ -146,7 +146,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "iron-plate", amount = 8},
         --{type="item", name="glass", amount=8}, --updated bob add glass
-        {type = "item", name = "raw-wood", amount = 5}
+        {type = "item", name = "wood", amount = 5}
     },
     results = {
         {"flask", 1}

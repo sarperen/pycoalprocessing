@@ -34,7 +34,7 @@ RECIPE {
         {"electric-mining-drill", 1},
         {"soil-extractormk01", 1},
         {"electronic-circuit", 5}, --bob basic-electronic-circuit-board
-        {"raw-wood", 50},
+        {"wood", 50},
         {"iron-plate", 35}
     },
     results = {

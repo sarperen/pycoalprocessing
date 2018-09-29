@@ -465,9 +465,9 @@ RECIPE {
         {type = "item", name = "log", amount = 1}
     },
     results = {
-        {type = "item", name = "raw-wood", amount = 5}
+        {type = "item", name = "wood", amount = 5}
     },
-    icon = data.raw.item["raw-wood"].icon,
+    icon = data.raw.item["wood"].icon,
     icon_size = 32,
     subgroup = "py-items",
     order = "a7"
@@ -756,7 +756,7 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "raw-wood", amount = 20}
+        {type = "item", name = "wood", amount = 20}
     },
     results = {
         {type = "item", name = "organics", amount = 20}
@@ -976,12 +976,12 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "raw-wood-to-coal",
-    localised_name = {"recipe-name.wood-to-coal", {"item-name.raw-wood"}, {"item-name.coal"}},
-    localised_description = {"recipe-description.wood-to-coal", {"item-name.raw-wood"}, {"item-name.coal"}},
+    name = "wood-to-coal",
+    localised_name = {"recipe-name.wood-to-coal", {"item-name.wood"}, {"item-name.coal"}},
+    localised_description = {"recipe-description.wood-to-coal", {"item-name.wood"}, {"item-name.coal"}},
     icons = {
         {icon = data.raw.item["coal"].icon, icon_size = 32},
-        {icon = data.raw.item["raw-wood"].icon, tint = {a = .5}, icon_size = 32}
+        {icon = data.raw.item["wood"].icon, tint = {a = .5}, icon_size = 32}
     },
     icon_size = 32,
     enabled = false,
@@ -989,7 +989,7 @@ RECIPE {
     subgroup = "py-items-hpf",
     order = "b",
     ingredients = {
-        {type = "item", name = "raw-wood", amount = 10}
+        {type = "item", name = "wood", amount = 10}
     },
     results = {
         {type = "item", name = "coal", amount = 10}
